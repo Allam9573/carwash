@@ -24,5 +24,7 @@ public class TipoVehiculo {
     @Column(columnDefinition = "decimal(10,2)", name = "precio_x_hora")
     private double precioXHora;
 
+    @OneToMany(mappedBy = "tipoVehiculo")
+    private List<Vehiculo> vehiculos;
 
 }

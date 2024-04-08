@@ -9,6 +9,7 @@ public interface TipoVehiculoService {
     public TipoVehiculo crearTipoVehiculo(TipoVehiculo tipoVehiculo);
 
     public List<TipoVehiculo> tiposVehiculos();
+
     public TipoVehiculo eliminarTipoVehiculo(int id);
 
 }
